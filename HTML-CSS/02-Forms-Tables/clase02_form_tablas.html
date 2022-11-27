@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02 - Formularios en HTML</title>        
+    </head>
+    <body>
+        <form action="resultados.html" method="get">
+            <div>
+                <label for="nombre_usuario">Nombre de usuario</label>
+                <input type="text" name="nombre_usuario" id="nombre_usuario" required>
+            </div>
+            <div>
+                <label for="clave">Contraseña</label>  
+                <input type="password" name="clave" id="clave" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+            </div>
+            <div>
+                <label for="edad" >¿Cuál es tu edad?</label>
+                <input type="number" name="numero" id="numero" required>
+            </div>
+            <div>
+                <label form="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>    
+    </body>
+</html>
+
+
+
+<!--
+El título debe ser "Ejercicio 02 - Formularios en HTML"
+El body debe contener un formulario que cumpla las siguientes características
+El atributo action será "/"
+Debe contener los siguientes campos:
+Un campo de texto llamado "nombre"
+Un campo numérico llamado "edad"
+Un campo de área de texto llamado "frase-favorita"
+Un botón de envío
+Un botón de reset
+-->

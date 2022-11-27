@@ -1,0 +1,41 @@
+/* ESTILOS CON COLORES */
+.colores {
+  color: red;
+}
+
+.color-hexadecimal {
+  color: #880d1e;
+}
+
+.color-rgb {
+  color: rgb(221, 45, 74);
+}
+
+.color-rgba {
+  color: rgba(224, 156, 186, 0.767);
+}
+
+/* BACKGROUND */
+.fondo {
+  background-color: rosybrown;
+  background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+  background-position: left bottom;
+}
+
+.ancho {
+  background-color: skyblue;
+  width: 100px;
+}
+
+.alto {
+  background-color: springgreen;
+  height: 200px;
+  width: 100px;
+}
+
+.tarjeta {
+  border-style: solid;
+  border-color: violet;
+  border-width: 1px;
+  padding: 10px, 20px, 30px, 40px;
+}
